@@ -28,7 +28,7 @@ app.use(feedbackRoutes);
 app.use(upcomingParticipantsRoutes);
 app.use(upcomingProfessionalRoutes);
 
-app.get("/health", (req, res) => {
+app.get("/", (req, res) => {
   res.send("medical camp management system server is running....");
 });
 
