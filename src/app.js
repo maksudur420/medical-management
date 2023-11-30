@@ -1,6 +1,6 @@
 const express = require("express");
 const globalErrorHandler = require("./utils/globalErrorHandler");
-const connectDB = require("./db/connectDB");
+//const connectDB = require("./db/connectDB");
 const applyMiddleware = require("./middlewares");
 
 require("dotenv").config();

@@ -4,7 +4,7 @@ const {
 } = require("../../../../lib/findparticipantIdByEmail");
 const upcomingParticipants = require("../../../../models/upcomingParticipants");
 const UpCommingCamp = require("../../../../models/UpCommingCamp");
-const Joincamp = require("../../../../models/joincamp");
+const Joincamp = require("../../../../models/Joincamp");
 
 const saveupcomingParticipants = {
   async getparticipantscampIdWise(req, res) {

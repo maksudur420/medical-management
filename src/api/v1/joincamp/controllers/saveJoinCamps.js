@@ -3,7 +3,7 @@ const {
   findParticipantIdByEmail,
 } = require("../../../../lib/findparticipantIdByEmail");
 const Camps = require("../../../../models/Camps");
-const Joincamp = require("../../../../models/joincamp");
+const Joincamp = require("../../../../models/Joincamp");
 
 const saveJoinCamp = {
   async getAllRegisteredCamp(req, res) {

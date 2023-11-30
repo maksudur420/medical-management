@@ -1,5 +1,5 @@
 const Payment = require("../../../../models/Payment");
-const Joincamp = require("../../../../models/joincamp");
+const Joincamp = require("../../../../models/Joincamp");
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
